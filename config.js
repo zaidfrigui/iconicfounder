@@ -15,7 +15,7 @@ window.PB_CONFIG = {
   // Free access key from https://web3forms.com (enter your email, the key arrives by email).
   // While this is left as-is, the questionnaire skips email sending and goes straight to
   // the backup (download file + WhatsApp).
-  web3formsKey: "YOUR-WEB3FORMS-ACCESS-KEY",
+  web3formsKey: "0c00591c-b762-4c86-8d4d-ed15fc59c696",
 
   // Market of the client. Only "MA" (Morocco) exists for now — see markets in questions.js.
   defaultMarket: "MA",
