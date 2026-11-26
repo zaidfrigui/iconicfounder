@@ -3,14 +3,14 @@
    ============================================================ */
 window.PB_CONFIG = {
   // Your mentoring brand name, shown on the welcome screen and header.
-  brandName: "[YOUR MENTORING BRAND NAME]",
+  brandName: "Iconic Founders",
 
   // Your first name, used in buttons like "Send to Zaid".
   mentorName: "Zaid",
 
   // Your WhatsApp number in international format, digits only, no "+" or spaces.
   // Example for 06 12 34 56 78 in Morocco → "212612345678"
-  mentorWhatsApp: "212600000000",
+  mentorWhatsApp: "212701777576",
 
   // Free access key from https://web3forms.com (enter your email, the key arrives by email).
   // While this is left as-is, the questionnaire skips email sending and goes straight to
