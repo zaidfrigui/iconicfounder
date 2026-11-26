@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Mentor desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .wrap { max-width: 860px; }
+    main { padding-bottom: 60px; }
+    h1.m { font-family: var(--display); font-weight: 500; font-size: clamp(28px, 6vw, 38px); margin: 6px 0 6px; }
+    .lead { color: var(--ink-2); margin: 0 0 22px; }
+    .drop { border: 1.5px dashed var(--line-2); border-radius: var(--radius); background: var(--surface); padding: 26px 18px; text-align: center; transition: border-color .15s, background .15s; }
+    .drop.over { border-color: var(--accent); background: var(--accent-soft); }
+    .drop p { margin: 8px 0 14px; color: var(--muted); font-size: 14.5px; }
+    .or { text-align: center; color: var(--muted); font-size: 13px; margin: 16px 0; }
+    .err { background: var(--warn-soft); color: var(--warn); padding: 10px 14px; border-radius: var(--radius-sm); margin-top: 12px; font-size: 14.5px; display: none; }
+    .recent { margin-top: 26px; }
+    .recent h3, .side h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 0 0 8px; font-weight: 600; }
+    .recent button { display: flex; width: 100%; justify-content: space-between; gap: 10px; text-align: start; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px 12px; margin-bottom: 6px; font-size: 14.5px; }
+    .recent button span { color: var(--muted); font-size: 13px; white-space: nowrap; }
+    .client { display: grid; gap: 14px; }
+    .client h2 { font-family: var(--display); font-weight: 500; font-size: 28px; margin: 0; }
+    .kv { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+    .kv div { background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 9px 11px; }
+    .kv b { display: block; font-size: 11.5px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 600; }
+    .kv span { font-size: 14.5px; word-break: break-word; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+    .actions .btn { min-height: 46px; font-size: 15px; padding: 0 18px; }
+    .toolbar { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin: 22px 0 6px; font-size: 14px; color: var(--ink-2); }
+    .toolbar label { display: inline-flex; gap: 6px; align-items: center; }
+    .sec { margin-top: 26px; }
+    .sec > h3 { font-family: var(--display); font-weight: 500; font-size: 22px; margin: 0 0 10px; display: flex; gap: 10px; align-items: baseline; }
+    .sec > h3 small { font-family: var(--font); font-size: 12.5px; color: var(--muted); font-weight: 500; }
+    .qa { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 8px; }
+    .qa .q { font-size: 13.5px; font-weight: 600; color: var(--ink-2); display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+    .qa .q code { font-size: 11.5px; color: var(--muted); font-weight: 500; }
+    .qa .q .star { color: var(--gold); }
+    .qa .a { margin-top: 6px; white-space: pre-wrap; font-size: 15px; unicode-bidi: plaintext; }
+    .qa.miss { border-color: #EBC9A6; background: var(--warn-soft); }
+    .qa.miss .a { color: var(--warn); font-weight: 600; }
+    .qa.opt-miss .a { color: var(--muted); }
+    .hide-opt .qa.opt-miss { display: none; }
+    .toast { position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; padding: 11px 18px; border-radius: 999px; font-size: 14px; z-index: 50; box-shadow: var(--shadow); }
+    .steps { margin: 12px 0 0; padding-inline-start: 20px; color: var(--ink-2); font-size: 14.5px; }
+    @media print {
+      .top, .actions, .toolbar, .noprint { display: none !important; }
+      body { background: #fff; }
+      .qa { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap"><div class="brand"><span class="dot"></span><span id="brand"></span> · Mentor desk</div>
+    <button class="iconbtn noprint" id="newBtn" hidden>Open another</button></div></header>
+  <main><div class="wrap" id="root"></div></main>
+
+  <script src="config.js"></script>
+  <script src="questions.js"></script>
+  <script src="translations.js"></script>
+  <script src="core.js"></script>
+  <script src="mentor.js"></script>
+</body>
+</html>

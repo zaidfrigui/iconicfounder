@@ -1,0 +1,473 @@
+{
+  "schema": "pb-onboarding",
+  "schemaVersion": 1,
+  "questionnaireVersion": "1.0.0",
+  "submissionId": "673ee920-9c78-475c-814d-bd0a9b386c50",
+  "market": "MA",
+  "currency": "MAD",
+  "language": "en",
+  "client": {
+    "name": "Youssef El Amrani",
+    "business": "Answer for q0_2 #1",
+    "whatsapp": "+212 600 000 000",
+    "email": "client@example.ma",
+    "city": "Answer for q0_4 #1"
+  },
+  "startedAt": "2026-11-26T09:42:32.306Z",
+  "submittedAt": "2026-11-26T09:43:07.454Z",
+  "durationMinutes": 1,
+  "completion": {
+    "answered": 111,
+    "total": 113,
+    "requiredMissing": []
+  },
+  "answers": {
+    "q0_1": "Youssef El Amrani",
+    "q0_2": "Answer for q0_2 #1",
+    "q0_3": {
+      "whatsapp": "+212 600 000 000",
+      "email": "client@example.ma"
+    },
+    "q0_4": "Answer for q0_4 #1",
+    "q0_5": {
+      "choice": "u25"
+    },
+    "q0_6": {
+      "choice": "ecommerce"
+    },
+    "q0_7": {
+      "choice": "r0"
+    },
+    "q1_1": "Answer for q1_1 #1",
+    "q1_2": "Answer for q1_2 #1",
+    "q1_3": [
+      {
+        "title": "Answer for q1_3 #1",
+        "story": "Answer for q1_3 #2"
+      },
+      {
+        "title": "Answer for q1_3 #3",
+        "story": "Answer for q1_3 #4"
+      },
+      {
+        "title": "Answer for q1_3 #5",
+        "story": "Answer for q1_3 #6"
+      }
+    ],
+    "q1_4": "Answer for q1_4 #1",
+    "q1_5": "Answer for q1_5 #1",
+    "q1_6": "Answer for q1_6 #1",
+    "q1_7a": {
+      "choices": [
+        "results",
+        "experience"
+      ]
+    },
+    "q1_7b": "Answer for q1_7b #1",
+    "q1_8": "Answer for q1_8 #1",
+    "q1_9": {
+      "spouse": "",
+      "friend": "",
+      "employee": ""
+    },
+    "q2_1": "Answer for q2_1 #1",
+    "q2_2": "Answer for q2_2 #1",
+    "q2_2b": "Answer for q2_2b #1",
+    "q2_3": "Answer for q2_3 #1",
+    "q2_4": "Answer for q2_4 #1",
+    "q2_5": {
+      "choices": [
+        "integrity",
+        "family",
+        "faith",
+        "excellence",
+        "freedom"
+      ]
+    },
+    "q2_5b": [
+      "integrity",
+      "family",
+      "faith"
+    ],
+    "q2_6": "Answer for q2_6 #1",
+    "q2_7": "Answer for q2_7 #1",
+    "q3_1": [
+      {
+        "type": "service",
+        "name": "Answer for q3_1 #1",
+        "price": "Answer for q3_1 #2"
+      }
+    ],
+    "q3_2": "Answer for q3_2 #1",
+    "q3_3": [
+      "leads",
+      "authority",
+      "hiring"
+    ],
+    "q3_4": "Answer for q3_4 #1",
+    "q3_5": "Answer for q3_5 #1",
+    "q3_6": 12000,
+    "q3_7": {
+      "choice": "company"
+    },
+    "q3_8": "Answer for q3_8 #1",
+    "q4_1": "Answer for q4_1 #1",
+    "q4_2a": 70,
+    "q4_2b": {
+      "choices": [
+        "a18",
+        "a25"
+      ]
+    },
+    "q4_2c": {
+      "choices": [
+        "casa",
+        "rabat"
+      ]
+    },
+    "q4_3": {
+      "choices": [
+        "student",
+        "employee"
+      ]
+    },
+    "q4_4": {
+      "choice": "r0"
+    },
+    "q4_5": "Answer for q4_5 #1",
+    "q4_6": {
+      "p1": "Answer for q4_6 #1",
+      "p2": "Answer for q4_6 #2",
+      "p3": "Answer for q4_6 #3"
+    },
+    "q4_7": "Answer for q4_7 #1",
+    "q4_8": "Answer for q4_8 #1",
+    "q4_9": "Answer for q4_9 #1",
+    "q4_10": "Answer for q4_10 #1",
+    "q4_11": "Answer for q4_11 #1",
+    "q4_12a": {
+      "choices": [
+        "instagram",
+        "tiktok"
+      ]
+    },
+    "q4_12b": "Answer for q4_12b #1",
+    "q4_13": {
+      "choices": [
+        "darija",
+        "french"
+      ]
+    },
+    "q4_14": "Answer for q4_14 #1",
+    "q5_1": {
+      "money": 1,
+      "productivity": 1,
+      "family": 1,
+      "marriage": 1,
+      "fitness": 1,
+      "food": 1,
+      "travel": 1,
+      "faith": 1,
+      "selfdev": 1,
+      "style": 1,
+      "cars": 1,
+      "tech": 1,
+      "sport": 1,
+      "culture": 1,
+      "career": 1,
+      "kidsEdu": 1,
+      "realestate": 1,
+      "mental": 1,
+      "books": 1
+    },
+    "q5_2": {
+      "choices": [
+        "money",
+        "productivity"
+      ]
+    },
+    "q5_3": "Answer for q5_3 #1",
+    "q5_4": "Answer for q5_4 #1",
+    "q6_1": {
+      "w1": "Answer for q6_1 #1",
+      "w2": "Answer for q6_1 #2",
+      "w3": "Answer for q6_1 #3",
+      "w4": "Answer for q6_1 #4",
+      "w5": "Answer for q6_1 #5"
+    },
+    "q6_2": {
+      "choices": [
+        "arrogant",
+        "showoff"
+      ]
+    },
+    "q6_3": {
+      "expert": 5,
+      "serious": 5,
+      "polished": 5,
+      "calm": 5,
+      "exclusive": 5,
+      "teacher": 5,
+      "reserved": 5
+    },
+    "q6_4": [
+      {
+        "name": "Answer for q6_4 #1",
+        "why": "Answer for q6_4 #2"
+      },
+      {
+        "name": "Answer for q6_4 #3",
+        "why": "Answer for q6_4 #4"
+      }
+    ],
+    "q6_5": [
+      {
+        "name": "Answer for q6_5 #1",
+        "why": "Answer for q6_5 #2"
+      },
+      {
+        "name": "Answer for q6_5 #3",
+        "why": "Answer for q6_5 #4"
+      }
+    ],
+    "q6_6": "Answer for q6_6 #1",
+    "q6_7": "Answer for q6_7 #1",
+    "q7_1": "Answer for q7_1 #1",
+    "q7_2": {
+      "client": "Answer for q7_2 #1",
+      "personal": "Answer for q7_2 #2",
+      "backstage": "Answer for q7_2 #3"
+    },
+    "q7_3": "Answer for q7_3 #1",
+    "q7_4": "Answer for q7_4 #1",
+    "q7_5": "Answer for q7_5 #1",
+    "q7_6": {
+      "talking": 2,
+      "vlog": 2,
+      "podcast": 2,
+      "interview": 2,
+      "street": 2,
+      "carousel": 2,
+      "youtube": 2,
+      "live": 2,
+      "bts": 2,
+      "tutorial": 2,
+      "story": 2,
+      "reaction": 2,
+      "linkedin": 2
+    },
+    "q7_7": "Answer for q7_7 #1",
+    "q8_1": {
+      "choices": [
+        "politics",
+        "religion"
+      ]
+    },
+    "q8_2": {
+      "choices": [
+        "dancing",
+        "lipsync"
+      ]
+    },
+    "q8_3": "Answer for q8_3 #1",
+    "q8_4": {
+      "choices": [
+        "arguing",
+        "paidpromo"
+      ]
+    },
+    "q8_5": {
+      "choice": "yes"
+    },
+    "q8_6": {
+      "choice": "ignore"
+    },
+    "q8_7": "Answer for q8_7 #1",
+    "q9_1": 7,
+    "q9_2": {
+      "spouse": "maybe",
+      "children": "maybe",
+      "parents": "maybe",
+      "home": "maybe",
+      "car": "maybe",
+      "faith": "maybe",
+      "travel": "maybe",
+      "fitness": "maybe",
+      "income": "maybe",
+      "routine": "maybe",
+      "team": "maybe",
+      "friends": "maybe"
+    },
+    "q9_3": "Answer for q9_3 #1",
+    "q9_4": "Answer for q9_4 #1",
+    "q9_5": "Answer for q9_5 #1",
+    "q10_1": {
+      "darija": 2,
+      "french": 2,
+      "arabic": 2,
+      "english": 2,
+      "amazigh": 2
+    },
+    "q10_2a": {
+      "choice": "darija"
+    },
+    "q10_2b": {
+      "choice": "yes"
+    },
+    "q10_3": {
+      "choices": [
+        "none",
+        "darija"
+      ]
+    },
+    "q10_4": {
+      "choice": "script"
+    },
+    "q10_5": "Answer for q10_5 #1",
+    "q11_1": {
+      "mon": [
+        "afternoon"
+      ],
+      "tue": [
+        "afternoon"
+      ],
+      "wed": [
+        "afternoon"
+      ],
+      "thu": [
+        "afternoon"
+      ],
+      "fri": [
+        "afternoon"
+      ],
+      "sat": [
+        "afternoon"
+      ],
+      "sun": [
+        "afternoon"
+      ]
+    },
+    "q11_2": 7,
+    "q11_3": {
+      "choice": "weekly"
+    },
+    "q11_4a": 7,
+    "q11_4b": "Answer for q11_4b #1",
+    "q11_5": {
+      "strategy": "inhouse",
+      "scripting": "inhouse",
+      "filming": "inhouse",
+      "editing": "inhouse",
+      "posting": "inhouse",
+      "community": "inhouse",
+      "ads": "inhouse"
+    },
+    "q11_6": {
+      "choices": [
+        "phone",
+        "camera"
+      ]
+    },
+    "q11_7": {
+      "choice": "r0"
+    },
+    "q11_8": {
+      "choice": "me24"
+    },
+    "q11_9": "Answer for q11_9 #1",
+    "q12_1": {
+      "instagram": {
+        "status": "active",
+        "handle": "Answer for q12_1 #1",
+        "followers": 12000
+      },
+      "tiktok": {
+        "status": "active",
+        "handle": "Answer for q12_1 #3",
+        "followers": 12000
+      },
+      "linkedin": {
+        "status": "active",
+        "handle": "Answer for q12_1 #5",
+        "followers": 12000
+      },
+      "youtube": {
+        "status": "active",
+        "handle": "Answer for q12_1 #7",
+        "followers": 12000
+      },
+      "facebook": {
+        "status": "active",
+        "handle": "Answer for q12_1 #9",
+        "followers": 12000
+      },
+      "x": {
+        "status": "active",
+        "handle": "Answer for q12_1 #11",
+        "followers": 12000
+      },
+      "snapchat": {
+        "status": "active",
+        "handle": "Answer for q12_1 #13",
+        "followers": 12000
+      }
+    },
+    "q12_2": "Answer for q12_2 #1",
+    "q12_3": "Answer for q12_3 #1",
+    "q12_4": {
+      "choices": [
+        "press",
+        "podcasts"
+      ],
+      "details": "Answer for q12_4 #1"
+    },
+    "q12_5": {
+      "choice": "yes"
+    },
+    "q13_1": {
+      "followers": {
+        "m3": 12000,
+        "m6": 12000,
+        "m12": 12000
+      },
+      "views": {
+        "m3": 12000,
+        "m6": 12000,
+        "m12": 12000
+      },
+      "leads": {
+        "m3": 12000,
+        "m6": 12000,
+        "m12": 12000
+      },
+      "clients": {
+        "m3": 12000,
+        "m6": 12000,
+        "m12": 12000
+      },
+      "opps": {
+        "m3": 12000,
+        "m6": 12000,
+        "m12": 12000
+      }
+    },
+    "q13_2": {
+      "choice": "instagram"
+    },
+    "q13_3": {
+      "choice": "followers"
+    },
+    "q13_4": 12000,
+    "q14_1": "Answer for q14_1 #1",
+    "q14_2": "Answer for q14_2 #1",
+    "q14_3a": 7,
+    "q14_3b": "Answer for q14_3b #1",
+    "q14_4": {
+      "choice": "together"
+    },
+    "q14_5": {
+      "choice": "weekly"
+    },
+    "q14_6": ""
+  }
+}
